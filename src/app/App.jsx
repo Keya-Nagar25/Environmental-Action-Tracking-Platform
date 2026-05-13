@@ -12,8 +12,6 @@ import { BottomNav } from './components/layout/BottomNav';
 
 function Layout() {
   const location = useLocation();
-  // Hide bottom nav on specific pages if needed, e.g. login or full screen create
-  // For now we keep it everywhere for easy navigation
   const hideBottomNav = false; 
 
   return (
