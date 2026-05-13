@@ -38,7 +38,6 @@ export default function Explore() {
             </div>
           </div>
         ))}
-        {/* Generate more placeholders to fill the grid if search is empty */}
         {searchQuery === '' && Array.from({ length: 12 }).map((_, i) => (
           <div key={`placeholder-${i}`} className="aspect-square bg-gray-200 animate-pulse"></div>
         ))}
