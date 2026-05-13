@@ -1,9 +1,5 @@
-
 import { activities } from "../data/mockData";
-
 export default function Activity() {
-  // Sort activities by most recent (assuming they are ordered for now or add a date sort)
-  
   return (
     <div className="bg-white min-h-screen pb-20">
       <header className="sticky top-0 z-40 bg-white border-b border-gray-100 px-4 h-14 flex items-center">
@@ -51,7 +47,6 @@ export default function Activity() {
         
         <div className="p-4">
            <h2 className="font-semibold text-sm mb-4">This Week</h2>
-           {/* Placeholder for older activities */}
            <div className="text-center py-8 text-gray-400 text-sm">
              No older activities.
            </div>
