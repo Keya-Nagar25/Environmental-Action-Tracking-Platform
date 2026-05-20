@@ -16,7 +16,6 @@ export function FeedItem({ post }) {
 
   return (
     <div className="bg-white border-b border-gray-100 pb-4 mb-2">
-      {/* Header */}
       <div className="flex items-center justify-between p-3">
         <div className="flex items-center gap-2">
           <img 
@@ -28,8 +27,6 @@ export function FeedItem({ post }) {
         </div>
         <button className="text-gray-500">•••</button>
       </div>
-
-      {/* Image */}
       <div className="relative aspect-square w-full bg-gray-100">
         <img 
           src={post.imageUrl} 
@@ -41,8 +38,6 @@ export function FeedItem({ post }) {
           {post.category}
         </div>
       </div>
-
-      {/* Actions */}
       <div className="p-3">
         <div className="flex items-center justify-between mb-2">
           <div className="flex items-center gap-4">
